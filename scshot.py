@@ -47,7 +47,7 @@ __status__ 		= " Production"
 
 dir_name = 'Day: ' + str(datetime.now().date())
 
-interval = int(input('Choose interval for taking screenshots (in secnds) | eg - 60: '))
+interval = int(input('Choose interval for taking screenshots (in seconds) | eg - 60: '))
 
 def fcount(path):
 
