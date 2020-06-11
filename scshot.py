@@ -69,8 +69,6 @@ def on_exists(fname):
 
 	now = datetime.now().date()
 
-	path = "/home/m1ck0/Desktop/"
-
 	# If directory for that date exists do not make new one, just add image to already made one
 	if os.path.isdir(dir_name):
 		return True
